@@ -1,0 +1,45 @@
+
+
+.container{
+    
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px grey solid;
+
+}
+.top{
+    height: 100px;
+    background-color: darkcyan;
+
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    left: 490px; 
+    top: 60px;
+}
+
+.main{
+    padding-top: 40px;
+    margin-left: 30px;
+    background-color: white;
+}
+.sub-content{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.map{
+    width: 13.17px;
+    height: 20px;
+    margin-right: 10px;
+}
+.gear{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

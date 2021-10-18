@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.nav{
+    display: flex;
+    width: 1200px;
+    margin-left:400px;
+    padding: 20px;
+    background-color: #303030;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+
+
+}
+li {
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0 auto;
+  }
+input{
+    margin-left: 100px;
+    height: 30px;
+    width: 500px;
+}
+  
+.nav .btn{
+    font-size: 25px;
+    margin-left: 200px;
+    background-color: #00CCCC;
+    box-shadow: 2px 1px 1px black;
+    font-weight: bold;
+    border:solid black 3px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+
+.contents{
+    display:flex;
+}
+.left-side{
+    display: inline-block;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 400px;
+    color: black;
+    font-size: 30px;
+}
+.right-side{
+
+    width: 440px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: black;
+    font-size: 20px;
+
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border: 3px black solid;
+
+}
+.box-2{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin-top: 100px;
+    border: 3px black solid;
+
+}
+.box-3{   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border: 3px black solid; 
+
+}
+.word{
+    text-align: center;
+    display: inline-block;
+    width: 170px;
+
+}
+
+.word p{
+margin-top: 10px;
+
+}
+
+.italic{
+    font-style: italic;
+}
+.word .btn{
+    margin-top: 40px;
+    font-size: 20px;
+    height:50px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    box-shadow: 2px 1px 1px black;
+    font-weight: bold;
+    border:solid black 3px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+.add .btn{
+    margin-top: 10px;
+    font-size: 20px;
+    height:50px;
+    width: 300px;
+    background-color: rgb(52, 136, 52);
+    box-shadow: 2px 1px 1px black;
+    font-weight: bold;
+    border:solid black 3px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
