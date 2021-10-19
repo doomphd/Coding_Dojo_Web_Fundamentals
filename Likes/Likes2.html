@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="likes2.css">
+
+    
+    <title>Likes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1>Network</h1>
+        </div>
+        <div class="feed">
+            <h1>Your Feed</h1>
+        </div>
+        <div class="bottom-container">
+            <div class="left-side">
+                <div class="box1">
+                    <img class ="user" src = "user-circle.png">
+                    <p></p>
+                    <a href = ""> Add an avatar</a>
+                    <h1>James Doe</h1>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="box2">
+                    <div class="top">
+                        <h2>Neil M</h2>
+                        <h2 id = "count1">9 likes(s)</h2>
+                        <button class = "btn" onclick="addNeil(this)">Like</button>
+                    </div>
+                    <div class = "bottom">
+                        <p>I just set up this new discord bot, let me</br>
+                        <p>know what you all think. <a href="">link</a></p>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="top">
+                        <h2>Nichole K</h2>
+                        <h2 id = "count2">12 likes(s)</h2>
+                        <button class = "btn" onclick="addNichole(this)">Like</button>
+                    </div>
+                    <div class = "bottom">
+                        <p>Just finished my <a href = "">next comic</a>, check it out.</br>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="top">
+                        <h2>Jim R</h2>
+                        <h2 id = "count3">9 likes(s)</h2>
+                        <button class = "btn" onclick="addJim(this)">Like</button>
+                    </div>
+                    <div class = "bottom">
+                        <p>I can't stop listening to the <a href =""> new album</a>.</br>
+                        <p>Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "likes2.js"></script>
+
+</body>
+</html>

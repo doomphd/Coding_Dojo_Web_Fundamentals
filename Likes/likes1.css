@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.border{
+    margin: 100px;
+    width: 400px;
+    border: 3px black solid;
+    font-weight: bold;
+}
+
+.top{
+    margin-left: 30px;;
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    margin-left: 30px;;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.btn{
+
+        background-color: yellow;
+        width: 50px;
+        box-shadow: 2px 1px 1px black;
+        font-weight: bold;
+        border:solid black 3px;
+        margin-right: 20px;
+        color:black;
+    
+}
